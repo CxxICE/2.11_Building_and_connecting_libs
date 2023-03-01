@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.11.4_Class hierarchy DLL", "2.11.4_Class hierarchy DLL\2.11.4_Class hierarchy DLL.vcxproj", "{FC5B91EA-A03A-4631-9460-CC055962B75E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class_hierarchy_client", "Class_hierarchy_client\Class_hierarchy_client.vcxproj", "{8D83F6D4-BC51-49CE-87DA-B200D79E2A1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.11.4_Class hierarchy DLL", "2.11.4_Class hierarchy DLL\2.11.4_Class hierarchy DLL.vcxproj", "{FC5B91EA-A03A-4631-9460-CC055962B75E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
