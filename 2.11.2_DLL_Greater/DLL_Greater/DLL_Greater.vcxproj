@@ -18,38 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Figure.cpp" />
-    <ClCompile Include="Parallelogram.cpp" />
-    <ClCompile Include="Quadrilateral.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="Rombus.cpp" />
-    <ClCompile Include="Square.cpp" />
-    <ClCompile Include="Triangle.cpp" />
-    <ClCompile Include="TriangleEquilateral.cpp" />
-    <ClCompile Include="TriangleIsosceles.cpp" />
-    <ClCompile Include="TriangleRight.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DLL.h" />
-    <ClInclude Include="Figure.h" />
-    <ClInclude Include="Parallelogram.h" />
-    <ClInclude Include="Quadrilateral.h" />
-    <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="Rombus.h" />
-    <ClInclude Include="Square.h" />
-    <ClInclude Include="Triangle.h" />
-    <ClInclude Include="TriangleEquilateral.h" />
-    <ClInclude Include="TriangleIsosceles.h" />
-    <ClInclude Include="TriangleRight.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fc5b91ea-a03a-4631-9460-cc055962b75e}</ProjectGuid>
-    <RootNamespace>My2114ClasshierarchyDLL</RootNamespace>
+    <ProjectGuid>{74ff6519-02a4-4523-b15c-a38839510051}</ProjectGuid>
+    <RootNamespace>DLLGreater</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2.11.4_Class hierarchy DLL</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -100,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;MY2114CLASSHIERARCHYDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DLLGREATER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -115,7 +89,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;MY2114CLASSHIERARCHYDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;DLLGREATER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -130,9 +104,8 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;MY2114CLASSHIERARCHYDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;DLLGREATER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -146,7 +119,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;MY2114CLASSHIERARCHYDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;DLLGREATER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -157,6 +130,12 @@
       <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Greeter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Greeter.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

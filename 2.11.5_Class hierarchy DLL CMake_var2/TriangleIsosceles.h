@@ -1,9 +1,9 @@
 #pragma once
 
-#include "DLL.h"
+#include "Figure.h"
 #include "Triangle.h"
 
-class CL_DLL_API TriangleIsosceles : public Triangle
+class TriangleIsosceles : public Triangle
 {
 public:
 	TriangleIsosceles(int a, int b, int A, int B);

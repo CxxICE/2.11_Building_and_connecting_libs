@@ -1,9 +1,9 @@
 #pragma once
 
-#include "DLL.h"
+#include "Figure.h"
 #include "Quadrilateral.h"
 
-class CL_DLL_API Parallelogram : public Quadrilateral
+class Parallelogram : public Quadrilateral
 {
 public:
 	Parallelogram(int a, int b, int A, int B);

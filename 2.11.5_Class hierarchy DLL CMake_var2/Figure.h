@@ -2,9 +2,7 @@
 
 #include <string>
 
-#include "DLL.h"
-
-class CL_DLL_API Figure
+class Figure
 {
 public:
 	Figure();

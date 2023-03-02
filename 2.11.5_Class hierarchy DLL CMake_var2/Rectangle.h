@@ -1,9 +1,9 @@
 #pragma once
 
-#include "DLL.h"
+#include "Figure.h"
 #include "Quadrilateral.h"
 
-class CL_DLL_API Rectangle : public Quadrilateral
+class Rectangle : public Quadrilateral
 {
 public:
 	Rectangle(int a, int b);
